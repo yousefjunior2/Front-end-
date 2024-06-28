@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>web scraping</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<div class="contaner">
+    <h2>Article one</h2>
+<p> tttttttttttttttttttttttt</p>
+<a href="vedio/one">vedio one</a>
+</div>
+<hr>
+<div class="contaner">
+    <h2>Article two</h2>
+<p> tttttttttttttttttttttttt</p>
+<a href="vedio/two">vedio two</a>
+</div>
+<hr>
+<div class="contaner">
+    <h2>Article three</h2>
+<p> tttttttttttttttttttttttt</p>
+<a href="vedio/three">vedio three</a>
+<hr>
+</div>
+<div class="footer">
+<p>this is the footer</p>
+</div>
+<hr>
+</body>
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+
+with open('index.html','r') as html_file:
+    
